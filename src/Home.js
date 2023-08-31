@@ -5,7 +5,7 @@ import useFetch from './useFetch';
 
 const Home = () => {
 
-    const blogUrl = 'https://my-json-server.typicode.com/ethanoutangoun/outiblog-jsonserver/blogs/'
+    const blogUrl = 'http://my-json-server.typicode.com/ethanoutangoun/outiblog-jsonserver/blogs/'
    
     const { data: blogs, isPending, error } = useFetch(blogUrl)   
 
